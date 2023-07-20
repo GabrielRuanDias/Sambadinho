@@ -1,0 +1,32 @@
+@media (min-width: 996px) {
+    body {
+        height: 100vh;
+    }
+    header {
+        flex-direction: row;
+    }
+
+    .principal {
+        margin: auto;
+        flex-direction: row;
+        max-width: 76%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 8%;
+        column-gap: 10%;
+    }
+    .principal > a {
+     
+    }
+    #caixa {
+        width: 39.5%;
+        
+    }
+    img {
+
+        width: 400px;
+        height: auto;
+        
+    }
+}

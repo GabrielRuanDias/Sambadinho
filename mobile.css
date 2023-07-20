@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+
+    background-image: linear-gradient(-240deg, violet, pink);
+    background-repeat: no-repeat;
+    position: relative;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1, nav {
+    margin: 20px;
+}
+h1 {
+    color: rgb(246, 246, 89);
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.297);
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(1, 128, 255);
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav a:hover {
+    background-color:  rgb(1, 128, 255);
+    color: white;
+    border-radius: 4px;
+    
+    
+}
+#caixa {
+    width: 90%;
+    padding: 10px;
+ 
+    
+}
+#caixa > h2{
+    text-align: left;
+    padding: 20px;
+    color:  rgb(1, 128, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.255);
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 30px;
+    padding: 20px;
+}
+#caixa > p {
+    color: white;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+img {  
+    width: 200px;
+    height: 200px;
+
+}
+.btn {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color:  rgb(246, 246, 89);
+    background-color: rgb(149, 0, 149);
+    text-decoration: none;
+    transition-duration: .6s;
+ 
+
+    
+}
+.btn:hover{
+    color: rgb(149, 0, 149);
+    background-color: rgb(246, 246, 89);
+}
